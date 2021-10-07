@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #ccc;
+}
+
+.container{
+    background-color: #fff;
+    width: 900px;
+    padding: 30px;
+}
+
+.header{
+    height: 150px;
+    display: flex;
+}
+
+.avatar{
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.avatar img{
+
+}
+
+.title{
+    margin-left: 40px;
+    flex: 1;
+    padding: 20px 40px;
+}
+
+.title h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.title h4{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.body{
+    display: flex;
+    padding-top: 40px;
+}
+
+.col1{
+    width: 230px;
+}
+
+.about-me{
+    margin-top: 30px;
+}
+
+.about-me h3{
+    margin-bottom: 16px;
+}
+.about-me span{
+    line-height: 24px;
+}
+
+.col2{
+    flex: 1;
+    padding-left: 20px;
+}
+
+.info{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.list-info{
+    list-style: none;
+    margin-top: 16px;
+}
+
+.list-info li{
+    margin-bottom: 16px;
+}
+
+.list-info li i{
+    margin-right: 12px;
+}
+
+.info h3{
+    margin-left: 30px;
+}
+
+.hr-info{
+    width: 200px;
+}
+
+.content-element {
+    margin-bottom: 16px;
+}
+
+.content-element .header{
+    height: 60px;
+    align-items: center;
+    display: flex;
+}
+
+.content-element .header .header_wrap{
+    border-bottom: 1px solid #000 ;
+    padding-bottom: 2px;
+    margin-left: 16px;
+    flex: 1;
+}
+
+.content-element .header i{
+    font-size: 50px;
+}
+
+.content-element .header span{
+    background-color: #000;
+    color: #fff;
+    padding: 4px 8px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    flex: 1;
+}
+
+.content-element .content{
+    padding-top: 16px;
+    padding-left: 64px;
+    border-left: 1px solid #000;
+    margin-left: 23px;
+    margin-top: 6px;
+    line-height: 24px;
+}
+
+.content-element .content ul{
+
+}
+
+.education h4{
+    font-weight: 600;
+}
+
+
+@media (max-width: 740px){
+    *{
+        font-size: 14px;
+    }
+    .container{
+        padding: 12px;
+    }
+    .title{
+        padding: 12px 4px;
+        margin-left: 4px;
+    }
+    .title h1{
+        font-size: 26px;
+    }
+    .title h4{
+        font-size: 20px;
+    }
+    .col1{
+        display: flex;
+        width: 100%;
+    }
+    .hr-info{
+        width: 1px;
+        height: 300px;
+        margin-right: 14px;
+        margin-left: 14px;
+    }
+    .col1 .info{
+        flex: 1;
+    }
+    .col1 .about-me{
+        flex: 1;
+        margin-top: 18px;
+    }
+
+    .body{
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .col2{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .content-element .content{
+        padding-left: 40px;
+    }
+
+}
+
